@@ -1,0 +1,21 @@
+2025-07-13 09:15:10,280 - INFO - ===== Evaluation Results =====
+2025-07-13 09:15:10,280 - INFO - Accuracy: 0.6834
+2025-07-13 09:15:10,280 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.68      0.94      0.79       498
+           1       0.68      0.22      0.34       279
+
+    accuracy                           0.68       777
+   macro avg       0.68      0.58      0.56       777
+weighted avg       0.68      0.68      0.63       777
+
+2025-07-13 09:15:10,280 - INFO - Sample Features Used (first 5 rows):
+   gc_content  at_content  dinuc_repeats  has_tata  entropy  length
+0         0.0    0.012346       0.049383         0  0.07827      81
+1         0.0    0.012346       0.024691         0  0.07827      81
+2         0.0    0.012346       0.074074         0  0.07827      81
+3         0.0    0.012346       0.074074         0  0.07827      81
+4         0.0    0.012346       0.049383         0  0.07827      81
+2025-07-13 09:15:10,280 - INFO - ============================
+
